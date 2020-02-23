@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+}
+
+.lotterynumb {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.centered {
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.display-1 {
+  font-size: 4vw;
+  color: #fff;
+}
