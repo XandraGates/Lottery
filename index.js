@@ -6,15 +6,15 @@ prompt("If you win, what would you spend the money on?");
 
 if(isNumeric(luckyNumber)){
   if(luckyNumber == 2){
-    document.getElementById("lotteryresult").src="images/lottery2.PNG";
+    document.getElementById("lotteryresult").src="images/lottery2.png";
   }else if(luckyNumber == 10){
-    document.getElementById("lotteryresult").src="images/lottery10.PNG";
+    document.getElementById("lotteryresult").src="images/lottery10.png";
   }else if(luckyNumber == 15){
-    document.getElementById("lotteryresult").src="images/lottery15.PNG";
+    document.getElementById("lotteryresult").src="images/lottery15.png";
   }else if(luckyNumber == 17){
-    document.getElementById("lotteryresult").src="images/lottery17.PNG";
+    document.getElementById("lotteryresult").src="images/lottery17.png";
   }else{
-    document.getElementById("lotteryresult").src="images/lottery_lost.PNG";
+    document.getElementById("lotteryresult").src="images/lottery_lost.png";
     document.getElementById("wrongNumb").innerHTML= luckyNumber;
   }
   document.getElementById("thankU").innerHTML=`Thank you for playing, ${fname}`;
